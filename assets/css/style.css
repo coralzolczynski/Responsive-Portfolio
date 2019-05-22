@@ -141,8 +141,7 @@ textarea {
     left: 832px;
 } */
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
     .name {
         position: relative;
         z-index: 1;
@@ -161,9 +160,50 @@ textarea {
     }
     .main {
         position: relative;
-        left: -150px;
+        left: 0px;
         margin-left: 80px;
         width: 400px;
+    }
+    .header {
+        padding: 35px;}
+
+
+    .container {
+        /* width: 100%;
+        align-items: center; */
+        /* flex-flow: column wrap; */
+
+    }
+    
+    .img {
+        width: 200px;
+        /* align-items: center; */
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .name {
+        position: relative;
+        z-index: 1;
+        top: -43px;
+        width: 40%;
+        padding: 0px;
+        float: left;
+        margin-left: -45px;
+        }
+    nav {
+        position: relative;
+        right: -30px;
+        margin-right: 50px;
+        float: right;        
+    }
+    .main {
+        position: relative;
+        left: -10px;
+        margin-left: 80px;
+        width: 500px;
     }
     .header {
         padding: 35px;}
